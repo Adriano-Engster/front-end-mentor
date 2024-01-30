@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(232 225 190);
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.nutritionow-section {}
+
+h2 {
+    color: rgba(129, 2, 2, 0.962);
+}
+
+.nutritional-table>div + div {
+    border-top: 2px solid gray;
+}
+
+.nutritional-table>div {
+    display: flex;
+    gap: 5rem;
+    height: 1.7em;
+    align-items: center;
+}
+
+.nutritional-table>div>p {
+    width: 50%;
+}
+
+.nutritional-table>div>p:first-child {
+    min-width: 10ch;
+
+}
+
+.nutritional-table>div>p:last-child {
+    color: rgba(116, 8, 8, 0.962);
+    font-weight: bold;
+
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    max-width: 32rem;
+    margin: 1rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
